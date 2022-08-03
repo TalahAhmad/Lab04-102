@@ -1,7 +1,63 @@
+
 body {
-    background: #f5f5f5;
+    background-color: #B9FAE5;
     font: 20px Arial, sans-serif;
+    
 }
+
+header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    background: #FAC6B9;
+    border: 4px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+}
+
 h1 {
-    color: orange;
+    background: #B9FAE5
 }
+
+
+h1 {
+    color: solid black;
+    padding: 6px;
+    text-align: center
+}
+
+.TableofContents {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    background: #FAC6B9;
+    border-box: 4px solid #AD6E5E
+}
+
+footer {
+    background: #B9FAE5;
+    border-box: 4px solid #AD6E5E;
+    text-align: left;
+    display: flex;
+    justify-content: space-between
+    
+    
+}
+
