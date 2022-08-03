@@ -12,3 +12,4 @@ const usersName = prompt ("What is your name?");
 console.log(usersName);
 
 console.log("Hi " + usersName + "!");
+

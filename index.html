@@ -30,7 +30,13 @@
 <main>
     <h1>This is the only article you’ll ever need to know which beverage is the best for you!</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <div>
+    <button onclick="myFunction()">Thirst Quenched!</button>
+    <script>function myFunction() {
+        var x = document.createElement("BUTTON");
+        var t = document.createTextNode("Click me");
+        x.appendChild(t);
+        document.body.appendChild(x);
+      }</script>
         <h2>Table of Contents</h2>
         <div class="TableofContents">
             <section>
