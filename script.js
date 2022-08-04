@@ -22,6 +22,17 @@ if (drink ==="water")
 
 usersDrink()
 
+// function usersDrink(){
+//     let correctAnswer = "water";
+//     let usersGuess = prompt ("What's your favorite drink?");
+//     if (usersGuess == correctAnswer){
+//     alert("Water is the best!");
+//     } else ("That's not right...");
+//     guessUsersDrink();
+//     }
+
+
+
 function usersDifferentResponse(){
     if (response = " "); 
         alert ("Welcome!")
