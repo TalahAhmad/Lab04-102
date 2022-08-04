@@ -27,6 +27,9 @@ h1 {
     background: #B9FAE5
 }
 
+class {
+    width: 100;
+}
 
 h1 {
     color: solid black;
